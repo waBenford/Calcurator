@@ -1,0 +1,41 @@
+import java.util.Scanner;
+
+public class calcurator {
+
+	public static void main(String[] args) {
+		Scanner getValue = new Scanner( System.in );
+		
+		//object
+		display display = new display();
+		
+		//object
+		ui UiDisplay = new ui();
+		UiDisplay.display();
+		
+		//object
+		process process = new process();
+		int num;
+		String sign = "";
+		
+		System.out.println("Enter number");
+		while( !sign.equals( "=" ) ) {
+			if( getValue.hasNextInt() ) {
+				num = getValue.nextInt();
+				
+				process.input( num );
+				process.operate();
+				display.operate(process);
+			}else {
+				sign = getValue.next();
+				
+				if( !sign.equals( "=" ) ) {
+					process.input( sign );
+					display.operate(process);
+				}
+			}
+		}
+		
+		display.total(process);
+	}
+
+}
