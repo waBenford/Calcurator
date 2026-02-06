@@ -24,6 +24,8 @@ public class process {
             switch(currentOp) {
                 case "+" : totalResult += currentNum; break;
 
+                case "-" : totalResult -= currentNum; break;
+
                 case "*" : totalResult *= currentNum; break;
 
                 case "/" : 
