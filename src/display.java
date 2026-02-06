@@ -1,6 +1,4 @@
 public class display {
-	public void total() {}
-}public class Display {
 
 
     // แสดงผลระหว่างการคำนวณ
