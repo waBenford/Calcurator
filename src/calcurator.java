@@ -17,7 +17,7 @@ public class calcurator {
 		int num;
 		String sign = "";
 		
-		System.out.println("Enter number");
+		System.out.println("Enter number:");
 		while( !sign.equals( "=" ) ) {
 			if( getValue.hasNextInt() ) {
 				num = getValue.nextInt();
