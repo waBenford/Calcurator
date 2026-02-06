@@ -19,7 +19,7 @@ public class process {
     public void operate() {
         if( isFirstInput ) {
             totalResult = currentNum;
-            isFirstInput = true;
+            isFirstInput = false;
         } else {
             switch(currentOp) {
                 case "+" : totalResult += currentNum; break;
