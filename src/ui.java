@@ -14,9 +14,9 @@ public class ui {
 		System.out.println("-----------------------------------------");
 		System.out.println("     [ 6 ]  [ 7 ]  [ 8 ]  [ 9 ]  [ 0 ]   ");
 		System.out.println("-----------------------------------------");
-		System.out.println("            [ - ]  [ + ]  [ % ]          ");
+		System.out.println("         [ - ]  [ + ]  [ % ]  [ * ]      ");
 		System.out.println("-----------------------------------------");
-		System.out.println("                   [ = ]                 ");
+		System.out.println("              [ / ]   [ = ]              ");
 		System.out.println("=========================================");
 	}
 }
